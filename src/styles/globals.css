@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+@import './theme.css';
+@import './article.css';
+
+@plugin 'tailwindcss-animate';
+
+@utility scrollbar-none {
+    scrollbar-width: none;
+}
+@utility scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
+
+@layer base {
+    html {
+        @apply text-primary bg-bg h-full leading-tight;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply h-full;
+    }
+
+    * {
+        @apply border-border;
+    }
+}
+
+/* Range input fix */
+.range-track {
+	background: linear-gradient(
+		90deg,
+		var(--color-brand) 0%,
+		color-mix(in srgb, var(--color-brand) 50%, transparent) 100%
+	);
+}
+
+/* Heartbeat fix */
+.heartbeat-container:hover .heartbeat {
+	animation: heartbeat-frame 0.8s ease-in-out;
+}
