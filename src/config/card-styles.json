@@ -1,0 +1,8 @@
+{
+  "hi": { "x": 40, "y": 40, "width": 360, "height": 180 },
+  "intro": { "x": 420, "y": 40, "width": 520, "height": 240 },
+  "tech": { "x": 40, "y": 260, "width": 360, "height": 260 },
+  "projects": { "x": 420, "y": 300, "width": 520, "height": 320 },
+  "contact": { "x": 980, "y": 40, "width": 320, "height": 180 },
+  "cv": { "x": 980, "y": 240, "width": 320, "height": 120 }
+}

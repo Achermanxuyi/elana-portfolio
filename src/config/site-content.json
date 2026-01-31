@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Elana",
+    "description": "Personal portfolio of an ICT student and AI-focused developer. I build intelligent systems and web applications, combining machine learning with modern web and mobile technologies.",
+    "username": "Elana"
+  },
+
+  "profile": {
+    "name": "Elana Liao",
+    "role": "Frontend / Mobile Developer",
+    "introShort": "Hi, I’m Elana 👋",
+    "introLong": "I’m an aspiring AI software developer with a strong interest in machine learning and intelligent systems. I enjoy tackling complex problems, building practical AI solutions, and bringing them to life through clean, scalable web and mobile applications."
+  },
+
+  "techStack": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Firebase",
+    "Swift",
+    "Node.js"
+  ],
+
+  "projects": {
+    "featured": [
+      {
+        "slug": "portfolio-website",
+        "title": "Personal Portfolio Website",
+        "description": "A static portfolio and blog built with Next.js and a card-based layout system.",
+        "tech": ["Next.js", "TypeScript", "Tailwind"]
+      }
+    ]
+  },
+
+  "cv": {
+    "file": "/cv.pdf",
+    "label": "Download CV"
+  },
+
+  "contact": {
+    "email": "elanaliao107@gmail.com",
+    "github": "https://github.com/Achermanxuyi",
+    "linkedin": "https://www.linkedin.com/in/elana-junji-liao/"
+  },
+
+  "theme": {
+    "colorBrand": "#de4331",
+    "colorPrimary": "#4E3F42",
+    "colorSecondary": "#7b888e",
+    "colorBg": "#eeeeee",
+    "colorCard": "#ffffff"
+  }
+}
